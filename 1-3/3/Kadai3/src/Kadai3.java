@@ -129,7 +129,9 @@ public class Kadai3{
 
     for(int i = 0; i < fruits.size(); i++){
       Fruit f = fruits.get(i);
+      // ビタミンC総含有量の計算
       total_vitaminC += f.getVitaminC() * f.getHowMany();
+      // 総額の計算
       total_price += f.getPrice() * f.getHowMany();
     }
 
