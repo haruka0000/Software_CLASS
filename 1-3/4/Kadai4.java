@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+import java.util.ArrayList; // ArrayListを使う 
+import java.lang.ArrayIndexOutOfBoundsException; // index系エラー
 import java.io.PrintStream;
 import java.io.FileNotFoundException; // ファイルが見つからないエラー
 import java.io.UnsupportedEncodingException;  // PrintStreamの第2引数の符号が見つからないエラー
@@ -48,8 +49,7 @@ public class Kadai4{
         p_y = rnd.nextInt(YRANGE) + Math.random();
 
         // 描画する図形をランダムに決定
-        //int shape_num = rnd.nextInt(3); // 0:Circle, 1:Triangle, 2:Rectangle
-        int shape_num = 1;
+        int shape_num = rnd.nextInt(3); // 0:Circle, 1:Triangle, 2:Rectangle
 
         // 始点の生成
         v1 = new Coord2();
@@ -59,12 +59,12 @@ public class Kadai4{
         switch(shape_num){
           
           case 0: // Circle
-            /*
+            
             rad = rnd.nextInt(RADIUS) + Math.random(); // 半径の生成
             
             // Circleオブジェクトを生成と同時にshape_listに格納
-            shape_list.add(new Circle(v1, v2, v3, color));
-            */
+            shape_list.add(new Circle(v1, rad,  color));
+            
             break;
             
           case 1: // Triangle
@@ -90,7 +90,7 @@ public class Kadai4{
             break;
 
           case 2: // Rectangle
-            /*
+            
             // x,y 座標のランダム生成 (0 <= x <= 600, 0 <= y <= 800)
             p_x = rnd.nextInt(XRANGE) + Math.random();
             p_y = rnd.nextInt(YRANGE) + Math.random();
@@ -100,8 +100,8 @@ public class Kadai4{
             v2.setCoord2(p_x, p_y);
             
             // Rectangleオブジェクトを生成と同時にshape_listに格納
-            shape_list.add(new Rectangle(v1, v2, v3, color));
-            */
+            shape_list.add(new Rectangle(v1, v2, color));
+          
             break;
 
         }
@@ -115,11 +115,22 @@ public class Kadai4{
     
       cout.println("%!");
 
+      double total_perimeter = 0; // 総周囲長
+      double total_area = 0;  // 総面積
+      Shape2D s;
+
       // shape_listに格納した図形をpostScriptファイルに書出し
+      // 同時に周囲長と面積を計算
       for(int i = 0; i < n; i++){
-        shape_list.get(i).psPrint(cout);
+        s = shape_list.get(i);  // ArrayListからゲット
+        s.psPrint(cout);  // 描画
+        total_perimeter += s.perimeter(); // 周囲長の加算
+        total_area += s.area(); // 面積の加算
       }
       
+      System.out.println("総周囲長：" + total_perimeter);
+      System.out.println("総面積：" + total_area);
+
       cout.println("showpage"); // 図形の表示(末尾)
       cout.close(); // ファイルを閉じる
 		}
@@ -136,6 +147,10 @@ public class Kadai4{
 			System.err.println("UTF-8符号はサポートされていません");
 			System.exit(1);
 		}
+    catch (ArrayIndexOutOfBoundsException e){
+      System.err.println("コマンドライン引数の数が適していない可能性が有ります");
+			System.exit(1);
+    }
 		catch (Exception e){
 			System.err.println("想定外のエラーです");
 			e.printStackTrace();
