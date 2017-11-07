@@ -1,6 +1,9 @@
+import java.util.Date;  // 日付
+import java.text.Format;  // フォーマットのため
+import java.text.DateFormat;  // 日付のフォーマット用
 import java.util.ArrayList; // ArrayListを使う 
 import java.lang.ArrayIndexOutOfBoundsException; // index系エラー
-import java.io.PrintStream;
+import java.io.PrintStream; // ファイル出力
 import java.io.FileNotFoundException; // ファイルが見つからないエラー
 import java.io.UnsupportedEncodingException;  // PrintStreamの第2引数の符号が見つからないエラー
 import java.util.Random;  // 乱数
@@ -11,7 +14,9 @@ public class Kadai4{
   final static int RADIUS = 200;/* 半径の最大値 */
       
   public static void main(String[] args){
-
+    Date now = new Date();  // Dateクラスのオブジェクト生成
+    Format fmt = DateFormat.getDateTimeInstance(DateFormat.FULL, DateFormat.LONG);  // 日付を日本語ロカールに従ってフォーマット
+    
     int x1 = 10;  // 描画数の下限
     int x2 = 50;  // 描画数の上限
     
@@ -112,8 +117,11 @@ public class Kadai4{
       
       // PrintStreamオブジェクトの生成
       PrintStream cout = new PrintStream(args[0], "UTF-8"); // プリント出力するファイル名
-    
-      cout.println("%!");
+      
+      // 作成者情報と日付の出力
+      cout.println("% 学籍番号：");
+      cout.println("% 氏名：");
+      cout.println("% 日付：" + fmt.format(now));
 
       double total_perimeter = 0; // 総周囲長
       double total_area = 0;  // 総面積
@@ -128,8 +136,9 @@ public class Kadai4{
         total_area += s.area(); // 面積の加算
       }
       
-      System.out.println("総周囲長：" + total_perimeter);
-      System.out.println("総面積：" + total_area);
+      cout.println("% 総面積：" + total_area);
+      cout.println("% 総長：" + total_perimeter);
+      cout.println("% 図形総数：" + shape_list.size());
 
       cout.println("showpage"); // 図形の表示(末尾)
       cout.close(); // ファイルを閉じる
