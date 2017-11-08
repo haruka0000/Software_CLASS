@@ -7,12 +7,13 @@ public abstract class Regression{
   protected int samples;  // データのサンプル数
   protected double[] variables; // 説明変数
   protected double[] labels;  // 目的変数
-  protected double predicted;  // 目的変数の予測値
+  protected double[] predicted;  // 目的変数の予測値
 
   public Regression(double[] variables, double[] labels){
     this.variables = variables;
     this.labels = labels;
-    this.samples = variables.length();
+    this.samples = variables.length;
+    this.predicted = new double[samples];
   }
 
   public double getA(){
@@ -25,8 +26,8 @@ public abstract class Regression{
 
   public abstract double computeR2();
 
-  public abstract double compMean();
+  public abstract void compMean();
 
-  public abstract double doRegression();
+  public abstract void doRegression();
 
 }
