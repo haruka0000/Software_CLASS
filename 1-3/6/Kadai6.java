@@ -13,6 +13,7 @@ import java.awt.geom.*;
 import javax.swing.*;
 import java.awt.event.KeyListener;/* キーボードからのイベントのリスナー */
 import java.awt.event.KeyEvent;/* キーボードからのイベント */
+import java.lang.ArrayIndexOutOfBoundsException; // index系エラー
 
 public class Kadai6 extends JFrame implements Runnable, KeyListener {
 	final static int sleepTime = 50;	// 休止時間（ミリ秒）
@@ -203,8 +204,15 @@ public class Kadai6 extends JFrame implements Runnable, KeyListener {
 	}
 
   public static void main(String[] args) {
-    int num = Integer.parseInt(args[0]);
-	  Kadai6 bcf = new Kadai6("名前：2017/11/28", num);
+    int num = 0;
+    try{
+      num = Integer.parseInt(args[0]);
+	  }catch (ArrayIndexOutOfBoundsException e){
+      System.err.println("コマンドライン引数を正しく入力してください");
+			System.exit(1);
+    }
+
+    Kadai6 bcf = new Kadai6("名前：2017/11/28", num);
 	  bcf.setSize(600, 600);  // ウィンドウサイズを600x600で作成
 	  bcf.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 	  bcf.setVisible(true);
