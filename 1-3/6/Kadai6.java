@@ -146,8 +146,8 @@ public class Kadai6 extends JFrame implements Runnable, KeyListener {
 		  RadialGradientPaint rgp = new RadialGradientPaint(center, radius, dist, colors);
 		  offG2.setPaint(rgp);  // ボールの色塗り設定 (Graphics2Dクラス(offG2)が必要）
 		  offG.fillOval(x-r, y-r, r*2, r*2);    // ボールの描画（前景）
-		  g.drawImage(offScreenImage,0,0,this);
     }
+    g.drawImage(offScreenImage,0,0,this);
     
 	}
 
