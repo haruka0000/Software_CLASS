@@ -1,0 +1,1448 @@
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server version:        Apache Tomcat/7.0.82
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server built:          Sep 29 2017 12:23:15 UTC
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server number:         7.0.82.0
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Name:               Linux
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Version:            4.9.63-1-MANJARO
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Architecture:          amd64
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Version:           1.8.0_144-b01
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Vendor:            Oracle Corporation
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.config.file=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/logging.properties
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.endorsed.dirs=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/endorsed
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.base=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.home=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.io.tmpdir=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/temp
+11 28, 2017 3:18:53 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11 28, 2017 3:18:53 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:18:53 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 1317 ms
+11 28, 2017 3:18:53 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+11 28, 2017 3:18:53 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.82
+11 28, 2017 3:18:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT を配備します
+11 28, 2017 3:18:54 午後 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [480] milliseconds.
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT has finished in 761 ms
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs を配備します
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs has finished in 67 ms
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager を配備します
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager has finished in 203 ms
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager を配備します
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager has finished in 48 ms
+11 28, 2017 3:18:54 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples を配備します
+11 28, 2017 3:18:55 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples has finished in 146 ms
+11 28, 2017 3:18:55 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:18:55 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:18:55 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 1278 ms
+11 28, 2017 3:20:35 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:20:35 午後 org.apache.catalina.core.StandardContext resourcesStart
+重大: 静的リソースの起動中のエラーです
+java.lang.IllegalArgumentException: ドキュメントベース /home/1/ma002/apache-tomcat-7.0.82/data/TextArea/jsp が存在しない、又は読めないディレクトリです
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:20:35 午後 org.apache.catalina.core.ContainerBase addChildInternal
+重大: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+11 28, 2017 3:20:35 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+重大: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備中のエラーです
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:20:35 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 26 ms
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server version:        Apache Tomcat/7.0.82
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server built:          Sep 29 2017 12:23:15 UTC
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server number:         7.0.82.0
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Name:               Linux
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Version:            4.9.63-1-MANJARO
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Architecture:          amd64
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Version:           1.8.0_144-b01
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Vendor:            Oracle Corporation
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.config.file=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/logging.properties
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.endorsed.dirs=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/endorsed
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.base=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.home=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.io.tmpdir=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/temp
+11 28, 2017 3:34:05 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11 28, 2017 3:34:05 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:34:05 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:34:05 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:34:05 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:34:05 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:34:05 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 352 ms
+11 28, 2017 3:34:05 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+11 28, 2017 3:34:05 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.82
+11 28, 2017 3:34:05 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:34:06 午後 org.apache.catalina.core.StandardContext resourcesStart
+重大: 静的リソースの起動中のエラーです
+java.lang.IllegalArgumentException: ドキュメントベース /home/1/ma002/apache-tomcat-7.0.82/data/TextArea/jsp が存在しない、又は読めないディレクトリです
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:34:06 午後 org.apache.catalina.core.ContainerBase addChildInternal
+重大: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+重大: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備中のエラーです
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 50 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT を配備します
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT has finished in 173 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs を配備します
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs has finished in 32 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager を配備します
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager has finished in 91 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager を配備します
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager has finished in 32 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples を配備します
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples has finished in 134 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 543 ms
+11 28, 2017 3:34:06 午後 org.apache.catalina.core.StandardServer await
+重大: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:782)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+11 28, 2017 3:34:06 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:34:06 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:34:06 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+11 28, 2017 3:34:06 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:34:06 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:34:06 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:34:06 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server version:        Apache Tomcat/7.0.82
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server built:          Sep 29 2017 12:23:15 UTC
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server number:         7.0.82.0
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Name:               Linux
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Version:            4.9.63-1-MANJARO
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Architecture:          amd64
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Version:           1.8.0_144-b01
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Vendor:            Oracle Corporation
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.config.file=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/logging.properties
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.endorsed.dirs=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/endorsed
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.base=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.home=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.io.tmpdir=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/temp
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11 28, 2017 3:39:00 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:39:00 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:39:00 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:39:00 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 362 ms
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.82
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.StandardContext resourcesStart
+重大: 静的リソースの起動中のエラーです
+java.lang.IllegalArgumentException: ドキュメントベース /home/1/ma002/apache-tomcat-7.0.82/data/TextArea/jsp が存在しない、又は読めないディレクトリです
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:39:00 午後 org.apache.catalina.core.ContainerBase addChildInternal
+重大: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+重大: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備中のエラーです
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 47 ms
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT を配備します
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT has finished in 174 ms
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs を配備します
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs has finished in 32 ms
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager を配備します
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager has finished in 103 ms
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager を配備します
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager has finished in 33 ms
+11 28, 2017 3:39:00 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples を配備します
+11 28, 2017 3:39:01 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples has finished in 146 ms
+11 28, 2017 3:39:01 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 562 ms
+11 28, 2017 3:39:01 午後 org.apache.catalina.core.StandardServer await
+重大: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:782)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+11 28, 2017 3:39:01 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:39:01 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:39:01 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+11 28, 2017 3:39:01 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:39:01 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:39:01 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:39:01 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server version:        Apache Tomcat/7.0.82
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server built:          Sep 29 2017 12:23:15 UTC
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server number:         7.0.82.0
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Name:               Linux
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Version:            4.9.63-1-MANJARO
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Architecture:          amd64
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Version:           1.8.0_144-b01
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Vendor:            Oracle Corporation
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.config.file=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/logging.properties
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.endorsed.dirs=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/endorsed
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.base=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.home=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.io.tmpdir=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/temp
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11 28, 2017 3:42:21 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:21 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:42:21 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:21 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 482 ms
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.82
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.StandardContext resourcesStart
+重大: 静的リソースの起動中のエラーです
+java.lang.IllegalArgumentException: ドキュメントベース /home/1/ma002/apache-tomcat-7.0.82/data/TextArea/jsp が存在しない、又は読めないディレクトリです
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:42:21 午後 org.apache.catalina.core.ContainerBase addChildInternal
+重大: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+重大: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備中のエラーです
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 57 ms
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT を配備します
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT has finished in 262 ms
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs を配備します
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs has finished in 55 ms
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager を配備します
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager has finished in 132 ms
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager を配備します
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager has finished in 33 ms
+11 28, 2017 3:42:21 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples を配備します
+11 28, 2017 3:42:22 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples has finished in 171 ms
+11 28, 2017 3:42:22 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 752 ms
+11 28, 2017 3:42:22 午後 org.apache.catalina.core.StandardServer await
+重大: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:782)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+11 28, 2017 3:42:22 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:22 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:22 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+11 28, 2017 3:42:22 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:22 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:22 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:22 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:37 午後 org.apache.catalina.core.StandardServer await
+情報: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11 28, 2017 3:42:37 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:37 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:37 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+11 28, 2017 3:42:37 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:37 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:37 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:37 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server version:        Apache Tomcat/7.0.82
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server built:          Sep 29 2017 12:23:15 UTC
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server number:         7.0.82.0
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Name:               Linux
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Version:            4.9.63-1-MANJARO
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Architecture:          amd64
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Version:           1.8.0_144-b01
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Vendor:            Oracle Corporation
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.config.file=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/logging.properties
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.endorsed.dirs=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/endorsed
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.base=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.home=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.io.tmpdir=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/temp
+11 28, 2017 3:42:39 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11 28, 2017 3:42:39 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:39 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 440 ms
+11 28, 2017 3:42:39 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+11 28, 2017 3:42:39 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.82
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:42:39 午後 org.apache.catalina.core.StandardContext resourcesStart
+重大: 静的リソースの起動中のエラーです
+java.lang.IllegalArgumentException: ドキュメントベース /home/1/ma002/apache-tomcat-7.0.82/data/TextArea/jsp が存在しない、又は読めないディレクトリです
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:42:39 午後 org.apache.catalina.core.ContainerBase addChildInternal
+重大: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+重大: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備中のエラーです
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 52 ms
+11 28, 2017 3:42:39 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT を配備します
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT has finished in 305 ms
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs を配備します
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs has finished in 38 ms
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager を配備します
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager has finished in 138 ms
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager を配備します
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager has finished in 41 ms
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples を配備します
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples has finished in 173 ms
+11 28, 2017 3:42:40 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:42:40 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:42:40 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 812 ms
+11 28, 2017 3:45:20 午後 org.apache.catalina.startup.HostConfig undeploy
+情報: コンテキストパス /TextArea のWebアプリケーションの配備を解除します
+11 28, 2017 3:45:20 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:45:20 午後 org.apache.catalina.core.StandardContext resourcesStart
+重大: 静的リソースの起動中のエラーです
+java.lang.IllegalArgumentException: ドキュメントベース /apache-tomcat-7.0.82/data/TextArea/jsp が存在しない、又は読めないディレクトリです
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5239)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:45:20 午後 org.apache.catalina.core.ContainerBase addChildInternal
+重大: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:162)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5431)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	... 10 more
+
+11 28, 2017 3:45:20 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+重大: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備中のエラーです
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/TextArea]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1019)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+11 28, 2017 3:45:20 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 4 ms
+11 28, 2017 3:45:50 午後 org.apache.catalina.startup.HostConfig undeploy
+情報: コンテキストパス /TextArea のWebアプリケーションの配備を解除します
+11 28, 2017 3:45:50 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:45:50 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 86 ms
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server version:        Apache Tomcat/7.0.82
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server built:          Sep 29 2017 12:23:15 UTC
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Server number:         7.0.82.0
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Name:               Linux
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: OS Version:            4.9.63-1-MANJARO
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Architecture:          amd64
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Version:           1.8.0_144-b01
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: JVM Vendor:            Oracle Corporation
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_BASE:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: CATALINA_HOME:         /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.config.file=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/logging.properties
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.endorsed.dirs=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/endorsed
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.base=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Dcatalina.home=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.VersionLoggerListener log
+情報: Command line argument: -Djava.io.tmpdir=/home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/temp
+11 28, 2017 3:45:52 午後 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11 28, 2017 3:45:52 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:45:52 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:45:52 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+11 28, 2017 3:45:52 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:45:52 午後 org.apache.coyote.AbstractProtocol init
+重大: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:45:52 午後 org.apache.catalina.core.StandardService initInternal
+重大: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 449 ms
+11 28, 2017 3:45:52 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+11 28, 2017 3:45:52 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/7.0.82
+11 28, 2017 3:45:52 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: 設定記述子 /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml を配備します
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDescriptor
+情報: Deployment of configuration descriptor /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/conf/Catalina/localhost/TextArea.xml has finished in 341 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT を配備します
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/ROOT has finished in 48 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs を配備します
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/docs has finished in 35 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager を配備します
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/host-manager has finished in 94 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager を配備します
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/manager has finished in 32 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples を配備します
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Deployment of web application directory /home/harukat/Homework/Software_CLASS/1-3/7/apache-tomcat-7.0.82/webapps/examples has finished in 245 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 838 ms
+11 28, 2017 3:45:53 午後 org.apache.catalina.core.StandardServer await
+重大: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: アドレスは既に使用中です (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:782)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+11 28, 2017 3:45:53 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:45:53 午後 org.apache.coyote.AbstractProtocol pause
+情報: Pausing ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:45:53 午後 org.apache.catalina.core.StandardService stopInternal
+情報: サービス Catalina を停止します
+11 28, 2017 3:45:53 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:45:53 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["http-bio-8080"]
+11 28, 2017 3:45:53 午後 org.apache.coyote.AbstractProtocol stop
+情報: Stopping ProtocolHandler ["ajp-bio-8009"]
+11 28, 2017 3:45:53 午後 org.apache.coyote.AbstractProtocol destroy
+情報: Destroying ProtocolHandler ["ajp-bio-8009"]
